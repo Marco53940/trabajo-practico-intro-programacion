@@ -3,6 +3,13 @@ const books = require('./CRUD/read.js');
 const deleteBook = require('./CRUD/delete');
 const update = require('./CRUD/update');
 
+/**
+    Esta aplicacion es un CRUD para gestionar una base de datos de Libros
+
+    @param action es el comando recibido por el entry point
+
+    @returns void
+*/
 
 const action = process.argv[2];
 
